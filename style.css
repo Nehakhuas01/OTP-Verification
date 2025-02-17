@@ -1,0 +1,41 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgb(243, 142, 250), rgb(249, 217, 248));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    border: 2px solid black;
+    margin-top: 100px;
+    height: 320px;
+    width: 300px;
+    background-color: rgb(226, 238, 247);
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px rgb(103, 217, 245), 15px 15px 8px rgb(201, 237, 253);
+}
+.btn-info{
+    margin-top: 30px;
+}
+#enter{
+    font-size: larger;
+    margin-top: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#inputOTP{
+    margin-top: 15px;
+    margin-left: 34px;
+}
+.btn-success{
+    margin-top: 50px;
+}
+.foot{
+    margin-top: 100px;
+    color: rgb(66, 66, 196);
+    font-family:cursive ;
+    font-size: x-large;
+}
